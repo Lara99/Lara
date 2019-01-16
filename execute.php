@@ -57,7 +57,7 @@
 			$num= rand (0,2);
 			sendFoto($chatId,$foto[$num],false, "La mia foto", $api);
 		}
-	        if ($text=="audio"){
+	        if ($text=="Audio"){
 			sendAudio($chatId,"audio.mp3",false,"Il mio Audio",$api);
 		}
                 if ($text=="testo"){
